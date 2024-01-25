@@ -11,7 +11,7 @@ module.exports.run = (client, message, args) =>{
 
 module.exports.details = {
     name:'Coin Flip',
-    author:'LachlanDev#8014',
+    author:'LachlanDev#8014 - Hotsuop#0000 who is now mantaing this projext',
     icon:'https://cdn.discordapp.com/avatars/365350852967399454/ce6e6e91fa887aa86e23ef356c9878fe',
     description:'Simple coin flip command',
     usage:`${prefix.prefix}coin`

@@ -17,8 +17,10 @@
   },
   "homepage": "https://github.com/LachlanDev/Discord-BOT-Dashboard-V2#readme",
   "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
     "connect-flash": "^0.1.1",
     "dateformat": "^4.5.1",
+    "discord-buttons": "^4.0.0-deprecated",
     "discord.js": "^12.5.3",
     "easy-number-formatter": "^1.0.3",
     "ejs": "^3.1.6",
@@ -37,6 +39,8 @@
     "passport": "^0.4.1",
     "passport-discord": "^0.1.4",
     "request": "^2.88.2",
-    "socket.io": "^4.2.0"
+    "snekfetch": "^4.0.4",
+    "socket.io": "^4.2.0",
+    "weky": "^3.1.8"
   }
 }

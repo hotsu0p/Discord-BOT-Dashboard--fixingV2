@@ -26,7 +26,7 @@ module.exports.run = (client, message, args) =>{
 
 module.exports.details = {
     name:'Clear',
-    author:'LachlanDev#8014',
+    author:'LachlanDev#8014 - Hotsuop#0000 who is now mantaing this projext',
     icon:'https://cdn.discordapp.com/avatars/365350852967399454/ce6e6e91fa887aa86e23ef356c9878fe',
     description:'Clears messages from a channel.',
     usage:`${prefix.prefix}clear {ammount}`

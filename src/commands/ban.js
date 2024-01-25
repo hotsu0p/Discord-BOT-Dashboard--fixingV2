@@ -19,7 +19,7 @@ module.exports.run = (client, message, args) =>{
                     .addField("User",`${target} was banned from the server!`)
                     .addField("Moderator",`${member}`)
                     .setThumbnail(target.avatarURL())
-                    .setFooter("Made by LachlanDev#8014", "https://cdn.discordapp.com/avatars/365350852967399454/ce6e6e91fa887aa86e23ef356c9878fe")
+                    .setFooter("Made by LachlanDev#8014 - Hotsuop#0000 who is now mantaing this projext and modifyed/maintaied by hotsuop#0000", "https://cdn.discordapp.com/avatars/365350852967399454/ce6e6e91fa887aa86e23ef356c9878fe")
                     message.channel.send({embed: kick })
                 }else{
                     message.channel.send(`${tag} please specify a user!`)
@@ -34,7 +34,7 @@ module.exports.run = (client, message, args) =>{
 
 module.exports.details = {
     name:'Ban',
-    author:'LachlanDev#8014',
+    author:'LachlanDev#8014 - Hotsuop#0000 who is now mantaing this projext',
     icon:'https://cdn.discordapp.com/avatars/365350852967399454/ce6e6e91fa887aa86e23ef356c9878fe',
     description:'Bans a user from the server.',
     usage:`${prefix.prefix}ban {@user}`

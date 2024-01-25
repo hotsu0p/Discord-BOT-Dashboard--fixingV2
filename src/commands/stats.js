@@ -15,13 +15,13 @@ module.exports.run = (client, message, args) =>{
     .addField("Uptime", duration)
     .addField("Response Time", `${Math.round(client.ws.ping)}ms`)
     .addField("Creation Date", dateformat(`${client.user.createdAt}`, 'dddd, mmmm dS, yyyy, h:MM TT'))
-    .setFooter("Made by LachlanDev#8014", "https://cdn.discordapp.com/avatars/365350852967399454/ce6e6e91fa887aa86e23ef356c9878fe")
+    .setFooter("Made by LachlanDev#8014 - Hotsuop#0000 who is now mantaing this projext and modifyed/maintaied by hotsuop#0000", "https://cdn.discordapp.com/avatars/365350852967399454/ce6e6e91fa887aa86e23ef356c9878fe")
     message.channel.send({embed: info })
 }
 
 module.exports.details = {
     name:'Stats',
-    author:'LachlanDev#8014',
+    author:'LachlanDev#8014 - Hotsuop#0000 who is now mantaing this projext',
     icon:'https://cdn.discordapp.com/avatars/365350852967399454/ce6e6e91fa887aa86e23ef356c9878fe',
     description:'Statistics your BOT.',
     usage:`${prefix.prefix}stats`

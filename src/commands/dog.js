@@ -11,14 +11,14 @@ module.exports.run = (client, message, args) =>{
         .setColor('#b434eb')
         .setTitle('Dog')
         .setImage(json.message)
-        .setFooter("Made by LachlanDev#8014", "https://cdn.discordapp.com/avatars/365350852967399454/ce6e6e91fa887aa86e23ef356c9878fe")
+        .setFooter("Made by LachlanDev#8014 - Hotsuop#0000 who is now mantaing this projext and modifyed/maintaied by hotsuop#0000", "https://cdn.discordapp.com/avatars/365350852967399454/ce6e6e91fa887aa86e23ef356c9878fe")
         message.channel.send({embed:dog})
     });
 }
 
 module.exports.details = {
     name:'Dog',
-    author:'LachlanDev#8014',
+    author:'LachlanDev#8014 - Hotsuop#0000 who is now mantaing this projext',
     icon:'https://cdn.discordapp.com/avatars/365350852967399454/ce6e6e91fa887aa86e23ef356c9878fe',
     description:'Sends a random image of a dog.',
     usage:`${prefix.prefix}dog`

@@ -1,5 +1,5 @@
 const express = require('express')
-const discord = require('./bot')
+const discord = require('./bot.js')
 const flash = require('connect-flash');
 const session = require('express-session');
 const passport = require('passport');
@@ -18,7 +18,17 @@ app.set('view engine', 'ejs');
 app.use(express.urlencoded({ extended: true,limit: '5mb' }));
 app.use(fileUpload());
 
-require('./auth/passport')(passport);
+require('./auth/passport.js')(passport);
+
+const { Client, Intents } = require('discord.js');
+
+const client = new Client({
+  intents: [
+    Intents.FLAGS.GUILDS, // This intent is required for basic bot functionality
+    Intents.FLAGS.GUILD_MESSAGES, // This intent is required to receive message events
+    // Add other necessary intents here
+  ],
+});
 
 
 // Express session

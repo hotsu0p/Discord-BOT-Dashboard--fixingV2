@@ -3,7 +3,7 @@ var DiscordStrategy = require('passport-discord').Strategy;
 const config = require('../config/config.json')
 
 module.exports = function(passport) {
-    var scopes = ['identify', 'email', 'guilds', 'guilds.join'];
+    var scopes = ['identify', 'email', 'guilds'];
  
     passport.use(new DiscordStrategy({
         clientID: config.clientID,

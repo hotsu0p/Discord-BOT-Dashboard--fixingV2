@@ -17,7 +17,7 @@ module.exports.run = (client, message, args) =>{
 // IMPORTANT Allows DBD to know details about your Plugin
 module.exports.details = {
     name:'Ping',
-    author:'LachlanDev#8014',
+    author:'LachlanDev#8014 - Hotsuop#0000 who is now mantaing this projext',
     icon:'URL',
     description:'ping command description',
     usage:`${prefix.prefix}ping`

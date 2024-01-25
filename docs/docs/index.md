@@ -9,7 +9,7 @@ Discord BOT Dashboard V2 is the successor of <a href="https://github.com/Lachlan
 This Documentation page will hopefully help you install and get Discord BOT Dashboard running, if you run into any errors or need any extra help feel free to use any of the contact methods below!
 
 ## 📞 Contact
-Created by LachlanDev#8014
+Created by LachlanDev#8014 - Hotsuop#0000 who is now mantaing this projext
 
 * [Website](https://lachlan-dev.com)
 * [Twitter](https://twitter.com/LachlanDev)

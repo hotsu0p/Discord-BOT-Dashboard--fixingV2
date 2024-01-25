@@ -16,7 +16,7 @@ module.exports = (client) => {
     lolcatjs.fromString(banner);
     console.log(chalk.bold.green('Launched Succesfully...'))
     console.log(chalk.magenta('Version:'),chalk.cyan(`${vers.ver}`))
-    console.log(chalk.magenta('Made by:'),chalk.cyan('LachlanDev#8014'))
+    console.log(chalk.magenta('Made by:'),chalk.cyan('LachlanDev#8014 - Hotsuop#0000 who is now mantaing this projext'))
     console.log(chalk.magenta('Prefix:'),chalk.cyan(`${config.prefix}\n`))
     console.log(chalk.green(chalk.bold(`${discord.client.user.username}`),`is online!`))
     console.log(chalk.green(chalk.bold(`Dashboard:`),`http://localhost:`+config.port))
